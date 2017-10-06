@@ -27,12 +27,13 @@ class ysMultiSelect{
     }
 
     count(id){
+        return this.multiSelects[id] !== undefined ? this.multiSelects[id].input.val().split(",").length:0;
+    }
+
+    countAll(id){
         return this.multiSelects[id].options.length;
     }
 
-    countSelected(id){
-        return this.multiSelects[id].element.children("option[selected]").length;
-    }
 
     html(id){
         return this.multiSelects[id] !== undefined ? this.multiSelects[id].input.val().split(","):[];
