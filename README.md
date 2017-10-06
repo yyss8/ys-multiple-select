@@ -2,7 +2,7 @@ YS-multiple-select v0.01
 
 Multiple Select Plugin for boostrap
 
-## Bootstrap, Jquery Required!
+## Bootstrap, Jquery , Font-awesome Required 
 
 ![Alt Text](https://github.com/yyss8/ys-multiple-select/blob/master/demo1.gif?raw=true)
 
@@ -18,9 +18,11 @@ Multiple Select Plugin for boostrap
 ## method name(parameters) :(type)return value
     count (id) : (number)count of selected values
     
-    countAll (id) : (number)count of all options
     
-    html (id) : (Array) the html content(text) of selected values
+    countAll (id) : (number)count of all options
+    
+    
+    html (id) : (Array) the html content(text) of selected values
     
     value (id) : (Array) selected values
     
